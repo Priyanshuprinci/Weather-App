@@ -1,7 +1,37 @@
+
 .App {
   text-align: center;
 }
-
+body{
+  background-color: rgb(167, 215, 215);
+  background-image:url("./weather.jpeg") ;
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  color: rgb(112, 32, 3);
+}
+form{
+  margin :20px;
+}
+input{
+  padding: 10px;
+  font-size: 16px;
+}
+button{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+button:hover{
+  background-color: #45a049;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
